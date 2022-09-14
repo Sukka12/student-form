@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>STUDENT ENROLLMENT FORM</title>
+	<link rel="stylesheet" href="style.css">
+	
+</head>
+<body>
+	<h1>STUDENT ENROLLMENT FORM</h1>
+	<center>
+		<table border="4">
+			<thead>
+				<tr>
+					<th>Name</th>
+					<td><input type="text" name="name" id="name"></td>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<th>Age</th>
+					<td><input type="text" name="age" id="age"></td>
+				</tr>
+				<tr>
+					<th>Email</th>
+					<td><input type="text" name="email" id="email"></td>
+				</tr>
+				<tr>
+					<th>Gender</th>
+					<td><input type="text" name="gender" id="gender"></td>
+				</tr>
+				<tr>
+					<th>Skills</th>
+					<td><input type="text" name="skills" id="skills"></td>
+				</tr>
+				<tr id="btna">
+					<td colspan="2"><input type="button" name="button" id="btn" value="Add" onclick="AddRow()"></td>
+				</tr>
+			</tbody>
+		</table>
+
+		<table border="4" id="show">
+			<thead>
+				<tr>
+					<th>Name</th>
+					<th>Age</th>
+					<th>Email</th>
+					<th>Gender</th>
+					<th>Skills</th>
+				</tr>
+			</thead>
+		</table>
+	</center>
+	
+	    <script type="text/javascript" src="./script.js"></script>
+</body>
+</html>
